@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<LinearLayout android:id="@+id/top" android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:background="@drawable/bg_title" android:paddingTop="5dip">
+
+		<Button
+		    android:id="@+id/btnSet"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="0.33"
+		    android:text="@string/startMock" >
+
+		</Button>
+
+		<Button
+		    android:id="@+id/btnSetAndFav"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="0.33"
+		    android:text="@string/startLoop" >
+
+		</Button>
+
+		<Button
+		    android:id="@+id/btnStop"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="0.33"
+		    android:text="@string/stopMock" >
+
+		</Button>
+	</LinearLayout>
+
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="0dip" android:layout_weight="1.0">
+		<com.google.android.maps.MapView
+			android:id="@+id/mapView" 
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:clickable="true"
+			android:apiKey="0jbi1TCoAcfvfiRi_BBQ5aRZ179syxHYAc0qRDg" />
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_centerInParent="true"
+			android:src="@drawable/center" />
+	</RelativeLayout>
+
+</LinearLayout>

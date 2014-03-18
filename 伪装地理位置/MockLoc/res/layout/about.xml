@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!--
+		/* ** Copyright 2008, The Android Open Source Project ** ** Licensed
+		under the Apache License, Version 2.0 (the "License"); ** you may not
+		use this file except in compliance with the License. ** You may obtain
+		a copy of the License at ** **
+		http://www.apache.org/licenses/LICENSE-2.0 ** ** Unless required by
+		applicable law or agreed to in writing, software ** distributed under
+		the License is distributed on an "AS IS" BASIS, ** WITHOUT WARRANTIES
+		OR CONDITIONS OF ANY KIND, either express or implied. ** See the
+		License for the specific language governing permissions and **
+		limitations under the License. */
+	-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/bg_popup">
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="36dip"
+		android:layout_marginTop="5dip" android:layout_marginBottom="5dip"
+		android:layout_gravity="center_vertical">
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="fill_parent" android:layout_marginLeft="10dip"
+			android:layout_marginRight="10dip" android:background="@drawable/about" />
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="fill_parent" android:text="@string/menuAbout"
+			android:textSize="30sp" android:textStyle="bold" android:gravity="center_vertical"/>
+	</LinearLayout>
+
+	<View android:layout_width="fill_parent" android:layout_height="1dip"
+		android:layout_marginLeft="2dip" android:layout_marginRight="2dip"
+		android:background="@color/background" />
+
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginTop="5dip" android:layout_marginLeft="10dip"
+		android:layout_marginRight="10dip">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/txtAbout"
+			android:text="@string/app_name" android:textSize="16sp" />
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/about_copyright"
+			android:textSize="16sp" />
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/txtAboutContact" android:text="@string/about_contact"
+			android:textSize="16sp" />
+	</LinearLayout>
+</LinearLayout>

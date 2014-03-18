@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">伪装地理位置</string>
+	<string name="mapSearchUrl">http://maps.google.com/maps/api/geocode/json?address=<xliff:g id="value">%s</xliff:g>&amp;sensor=true</string>
+	
+	<string name="btnSet">开始伪装</string>
+	<string name="btnSetAndFav">Add to favorite</string>
+	<string name="btnStop">停止伪装</string>
+	<string name="btnDelete">Delete</string>
+	<string name="btnClearAllFavs">Clear all favorites</string>
+	<string name="btnClearAllHistory">Clear all history</string>
+	<string name="btnSettings">Setting</string>
+	
+	<string name="txtLat">Latitude</string>
+	<string name="txtLng">Longitude</string>
+	
+	<string name="dialogFavTitle">Add to favorite</string>
+	<string name="dialogFavLabel">Name:</string>
+	<string name="dialogFavListLabel">Or select one</string>
+	
+	<string name="dialogFavListTitle">Favorites</string>
+	<string name="dialogHistoryListTitle">History</string>
+	
+	<string name="dialogSearchTitle">Search</string>
+	<string name="dialogSearchLabel">Name:</string>
+	
+	<string name="dialogImportTitle">Import</string>
+	<string name="dialogImportLabel">The csv format: locationName, lat, lng</string>
+	
+	<string name="dialogGPSSpeedTitle">GPS Speed</string>
+	<string name="dialogGPSSpeedLabel">Input speed (m)</string>
+	
+	<string name="dialogGPSBearingTitle">GPS Bearing</string>
+	<string name="dialogGPSBearingLabel">Input bearing: 0 ~ 360</string>
+	
+	<string name="dialogGPSAccuracyTitle">GPS Accuracy</string>
+	<string name="dialogGPSAccuracyLabel">Input Accuracy</string>
+	
+	<string name="dialogGPSAutitudeTitle">GPS Autitude</string>
+	<string name="dialogGPSAutitudeLabel">Input autitude</string>
+	
+	<string name="dialogAbout">About</string>
+	
+	<string name="dialogTip">Tip</string>
+	<string name="dialogTipContent">请检查您的设置: 设置-&gt;应用程序-&gt;开发-&gt;允许模拟位置, 确保这项被勾选了.
+\n\n在运行其他社交程序之前先运行本程序\'s.</string>
+	
+	
+	<string name="searchLoadingTitle">Search...</string>
+	<string name="importLoadingTitle">Import...</string>
+	<string name="importNums">Import <xliff:g id="value">%s</xliff:g> records successfully.</string>
+	
+	<string name="notifyLocationLabel">Current Location</string>
+	
+	<string name="ok">OK</string>
+	<string name="cancel">Cancel</string>
+	<string name="save">Save</string>
+	
+	<string name="notifyTitle">MockGPS</string>
+	<string name="choose">Please choose one</string>
+	
+	<string name="settingsImportTitle">Import data</string>
+	<string name="settingsImportDesc">Import data from a csv file</string>
+	
+	<string name="settingsAboutTitle">About</string>
+	<string name="settingsAboutDesc">v</string>
+	
+	<string name="settingsTipTitle">Tip</string>
+	<string name="settingsTipDesc">Tim information</string>
+	
+	<string name="errorName">Please input the name</string>
+	<string name="errorLat">Please input the lat</string>
+	<string name="errorLng">Please input the lng</string>
+	<string name="errorNoDataConnection">No data connection, pleanse turn on wifi or 3G.</string>
+	<string name="errorNotFound">No data found.</string>
+	<string name="errorMockSettingDisabled">Go to Settings->Applications->Development->Allow mock locations and make sure this item is checked. Thanks.  </string>
+	<string name="errorInputWrongValue">Please input the correct value.</string>
+	
+	<string name="menuFavs">Favorites</string>
+	<string name="menuSettings">Settings</string>
+	<string name="menuSearch">Search</string>
+	<string name="menuHistory">History</string>
+	
+	<string name="pageTitleSttings">Settings</string>
+	
+	<string name="about_copyright">
+		©2011 Jacksun.Developer\n
+	</string>
+	<string name="about_contact">
+		Home: http://code.google.com/p/android-mock-gps
+	</string>
+	
+	<string name="crashToastText">Ooooops ! I crashed, but a report has been sent to
+		my developer to help him fix the issue !</string>
+	<string name="timeSetting">时间间隔设置</string>
+	<string name="readData">读取经纬度</string>
+	<string name="startLoop">开始循环</string>
+	<string name="startMock">开始伪装</string>
+	<string name="stopMock">停止伪装</string>
+
+</resources>

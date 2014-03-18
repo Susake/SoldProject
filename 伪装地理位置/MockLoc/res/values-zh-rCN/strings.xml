@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">MockGPS</string>
+	<string name="mapSearchUrl">http://maps.google.com/maps/api/geocode/json?address=<xliff:g id="value">%s</xliff:g>&amp;sensor=true</string>
+	
+	<string name="btnSet">Set Location</string>
+	<string name="btnSetAndFav">Add to favorite</string>
+	<string name="btnStop">Stop</string>
+	<string name="btnDelete">Delete</string>
+	<string name="btnClearAllFavs">Clear all favorites</string>
+	<string name="btnClearAllHistory">Clear all history</string>
+	
+	<string name="dialogFavTitle">Add to favorite</string>
+	<string name="dialogFavLabel">Name:</string>
+	<string name="dialogFavListLabel">Or select one</string>
+	
+	<string name="dialogFavListTitle">Favorites</string>
+	<string name="dialogHistoryListTitle">History</string>
+	
+	<string name="dialogSearchTitle">Search</string>
+	<string name="dialogSearchLabel">Name:</string>
+	
+	<string name="dialogImportTitle">Import</string>
+	<string name="dialogImportLabel">File path:</string>
+	
+	<string name="searchLoadingTitle">Search...</string>
+	<string name="importLoadingTitle">Import...</string>
+	<string name="importNums">Import <xliff:g id="value">%s</xliff:g> records successfully.</string>
+	
+	<string name="notifyLocationLabel">Current Location</string>
+	
+	<string name="ok">OK</string>
+	<string name="cancel">Cancel</string>
+	
+	<string name="notifyTitle">MockGPS</string>
+	<string name="choose">Please choose one</string>
+	
+	<string name="settingsImportTitle">Import data</string>
+	<string name="settingsImportDesc">Import data from a csv file</string>
+	
+	<string name="errorName">Please input the name</string>
+	<string name="errorNoDataConnection">No data connection, pleanse turn on wifi or 3G.</string>
+	<string name="errorNotFound">No data found.</string>
+	<string name="errorMockSettingDisabled">程序需要您开启“允许模拟地点”: 系统设置->应用程序->开发。</string>
+	
+	<string name="menuFavs">Favorites</string>
+	<string name="menuSettings">Settings</string>
+	<string name="menuSearch">Search</string>
+	<string name="menuAbout">About</string>
+	<string name="menuHistory">History</string>
+	
+	<string name="pageTitleSttings">Settings</string>
+	
+	<string name="about_copyright">
+		©2011 Jacksun.Developer\n
+	</string>
+	<string name="about_contact">
+		Home: http://code.google.com/p/android-gps-test/
+	</string>
+	
+	<string name="crashToastText">非常抱歉，程序发生异常，错误日志将会发送给开发人员，不会有任何隐私信息发送，我们将会快速跟踪这个问题，谢谢使用本软件。</string>
+
+</resources>

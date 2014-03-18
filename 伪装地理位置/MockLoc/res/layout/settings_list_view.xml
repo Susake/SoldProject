@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:id="@+id/txtSettingsHeader"
+		android:layout_width="fill_parent" android:layout_height="25dip"
+		android:paddingLeft="4dip" android:textStyle="bold"
+		android:textColor="@*android:color/dim_foreground_dark"
+		android:textSize="14sp" android:gravity="center_vertical|left"
+		android:background="@*android:drawable/dark_header" android:text="@string/pageTitleSttings" />
+	<ListView android:id="@+id/android:list" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:paddingLeft="4dip" />
+</LinearLayout>
